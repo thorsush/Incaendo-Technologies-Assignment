@@ -1,0 +1,44 @@
+
+.subscribers_info{
+    background-color: #d3e1e4;
+}
+.subscribers_info h1{
+    color: #20666e;
+    text-align: center;
+    margin-top: 50px;
+}
+.subscribers_info h4{
+    text-align: center;
+    color: #9c9c9c;
+}
+.header_4{
+    color: #9c9c9c;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.subscriber-rating-card{
+    height: fit-content;
+    width: 160px;
+    text-align: center;
+
+}
+.rating_percentage{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    color: white;
+    background-color:#33a3af ;
+    font-size: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 1000;
+}
+.subscriber_cards{
+display: flex;
+margin-left: 10%;
+margin-right: 10%;
+justify-content: space-around;
+flex-wrap: wrap;
+}

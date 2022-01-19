@@ -1,0 +1,38 @@
+.home h1{
+    color: #20666e;
+}
+.home h3{
+    color: #9c9c9c;
+}
+.header_title{
+    width: 35%;
+    margin-left: 20%;
+}
+.sign_in_card{
+    margin-left: 20%;
+    background-color: #d3e1e4;
+}
+.form{
+    width: fit-content;
+    margin-left: 20px;
+}
+ .email{
+width: 96%;
+
+}
+.text_field{
+    color: #c4c2c4 !important;
+    margin: 10px !important;
+     /* height: 20px !important; */
+}
+.form button{
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 150px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
