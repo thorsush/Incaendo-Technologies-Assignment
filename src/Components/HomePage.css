@@ -1,38 +1,74 @@
-.home h1{
-    color: #20666e;
+.home h1 {
+  color: #20666e;
 }
-.home h3{
-    color: #9c9c9c;
+.home h3 {
+  color: #9c9c9c;
 }
-.header_title{
-    width: 35%;
-    margin-left: 20%;
+.header_title {
+  width: 35%;
+  margin-left: 20%;
 }
-.sign_in_card{
-    margin-left: 20%;
-    background-color: #d3e1e4;
+.sign_in_card {
+  margin-left: 20%;
+  background-color: #d3e1e4;
 }
-.form{
-    width: fit-content;
-    margin-left: 20px;
+.form {
+  width: fit-content;
+  margin-left: 20px;
 }
- .email{
-width: 96%;
-
+.email {
+  width: 96%;
 }
-.text_field{
-    color: #c4c2c4 !important;
-    margin: 10px !important;
-     /* height: 20px !important; */
+.text_field {
+  color: #c4c2c4 !important;
+  margin: 10px !important;
+  background-color:white !important;
+  border-radius: 5px !important;
 }
-.form button{
-    background-color: black;
-    color: white;
-    height: 40px;
-    width: 150px;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    border-radius: 30px;
-    border: none;
-    cursor: pointer;
+.form button {
+  background-color: black;
+  color: white;
+  height: 40px;
+  width: 150px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 15px;
+}
+.sign_in_card .codice{
+    background-color: white;
+    color:#c4c2c4;
+    height: 100px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.sign_in_card .coupun{
+    border-bottom: 1px solid #c4c2c4;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    font-size: large;
+}
+.sign_in_card .user{
+    display: flex;
+    height: 62%;
+}
+ .user .user_image{
+    width: 50px;
+    height: 60%;
+    background-color: #c4c2c4;
+    margin-top: 12px;
+    margin-left: 12px;
+    border-radius: 2px;
+}
+.user .user_data{
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   font-size: large;
+   margin-left: 8%;
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import BlogCard from "./BlogCard";
-import './BlogListing.css';
+import "./BlogListing.css";
 
 export default function BlogListing() {
   const blogCardsInfo = [
@@ -19,13 +19,13 @@ export default function BlogListing() {
     },
     {
       header: `Good
-        Morning
-        Italia cersa nuovi collaboratori`,
+                Morning
+                Italia cersa nuovi collaboratori`,
       date: `5 novembre 2021`,
       details: `Good Morning Italia cresce: stiamo
-      cercando alcune persone che
-      facciano parte della nostra squadra.
-      Questa...`,
+                cercando alcune persone che
+                facciano parte della nostra squadra.
+                Questa...`,
       fotter: `Leggi il post`,
     },
     {
