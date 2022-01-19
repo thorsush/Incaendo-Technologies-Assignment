@@ -19,10 +19,13 @@
 .email {
   width: 96%;
 }
+.sign_in_card form {
+  padding-top: 30px;
+}
 .text_field {
   color: #c4c2c4 !important;
   margin: 10px !important;
-  background-color:white !important;
+  background-color: white !important;
   border-radius: 5px !important;
 }
 .form button {
@@ -38,37 +41,37 @@
   margin-left: 10px;
   font-size: 15px;
 }
-.sign_in_card .codice{
-    background-color: white;
-    color:#c4c2c4;
-    height: 100px;
-    margin: 10px;
-    border-radius: 5px;
+.sign_in_card .codice {
+  background-color: white;
+  color: #c4c2c4;
+  height: 100px;
+  margin: 10px;
+  border-radius: 5px;
 }
-.sign_in_card .coupun{
-    border-bottom: 1px solid #c4c2c4;
-    height: 38px;
-    display: flex;
-    align-items: center;
-    padding-left: 15px;
-    font-size: large;
+.sign_in_card .coupun {
+  border-bottom: 1px solid #c4c2c4;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  font-size: large;
 }
-.sign_in_card .user{
-    display: flex;
-    height: 62%;
+.sign_in_card .user {
+  display: flex;
+  height: 62%;
 }
- .user .user_image{
-    width: 50px;
-    height: 60%;
-    background-color: #c4c2c4;
-    margin-top: 12px;
-    margin-left: 12px;
-    border-radius: 2px;
+.user .user_image {
+  width: 50px;
+  height: 60%;
+  background-color: #c4c2c4;
+  margin-top: 12px;
+  margin-left: 12px;
+  border-radius: 2px;
 }
-.user .user_data{
-   display: flex;
-   align-items: center;
-   justify-content: flex-start;
-   font-size: large;
-   margin-left: 8%;
+.user .user_data {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: large;
+  margin-left: 8%;
 }

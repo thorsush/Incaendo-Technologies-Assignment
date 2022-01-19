@@ -8,6 +8,7 @@
 .bloglisting h1 {
   color: #ffffff;
   text-align: center;
+  padding-top: 30px;
 }
 .blog_cards {
   display: flex;
