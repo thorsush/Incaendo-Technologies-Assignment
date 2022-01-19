@@ -3,8 +3,8 @@
   flex-wrap: wrap;
   margin-top: 50px;
 }
-.page_footer h3{
-    margin-top: 30px;
+.page_footer h3 {
+  margin-top: 30px;
 }
 .footer2 {
   background-color: #33a3af;
@@ -46,4 +46,20 @@
 .footer_image img {
   height: 100%;
   width: 100%;
+}
+@media only screen and (max-width: 450px) {
+  .page_footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 50px;
+  }
+  .footer2,
+  .footer1 {
+    width: 100%;
+  }
+  .footer1 > h4,
+  .footer1 h3 {
+    margin-left: 1%;
+  }
 }
